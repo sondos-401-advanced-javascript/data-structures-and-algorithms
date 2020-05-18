@@ -7,4 +7,4 @@ in this challange, create function name reverseArray. this function reverse the 
 ## Approach & Efficiency
 I did a method by using for loop and index of array.
 ## Solution
-![reverse whiteboard](./assets/reverse.jpg)
+![reverse whiteboard](../../assets/reverse.jpg)
