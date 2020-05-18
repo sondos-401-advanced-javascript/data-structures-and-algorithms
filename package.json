@@ -1,0 +1,24 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "description": "## Table Of Content challenges | link ----|----- arrayReverse | [challenge 1](./challenges/arrayReverse) arrayShift | [challenge 2](./challenges/arrayShift)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sondos-401-advanced-javascript/data-structures-and-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sondos-401-advanced-javascript/data-structures-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/sondos-401-advanced-javascript/data-structures-and-algorithms#readme",
+  "dependencies": {
+    "eslint": "^7.0.0",
+    "jest": "^26.0.1"
+  }
+}

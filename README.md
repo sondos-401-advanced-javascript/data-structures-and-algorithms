@@ -3,5 +3,6 @@
 ## Table Of Content
 challenges | link
 ----|-----
-arrayReverse | [challenge 1](./challenges/arrayReverse/array-reverse.js)
+arrayReverse | [challenge 1](./challenges/arrayReverse)
+arrayShift | [challenge 2](./challenges/arrayShift)
 
