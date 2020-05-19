@@ -7,5 +7,9 @@ in this challange, create function name insertShiftArray. this function take arr
 ## Approach & Efficiency
 - I did a method by using for loop, index of array and if statment.
 - I did the test by using this command `npm test`
+
+## Big O
+Time: for loop have with nested if statement. Space: I used two variables one for index and another for output array, the original array doesn't change. 
+
 ## Solution
 ![shift whiteboard](../../assets/shift.jpg)
