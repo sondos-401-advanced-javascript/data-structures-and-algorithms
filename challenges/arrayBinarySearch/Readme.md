@@ -9,8 +9,8 @@ in this challange, create function name BinarySearch. this function take array a
 - I did the test by using this command `npm test`
 
 ## links
-[pull request]()
-[github actions]()
+[pull request](https://github.com/sondos-401-advanced-javascript/data-structures-and-algorithms/pull/5)
+[github actions](https://github.com/sondos-401-advanced-javascript/data-structures-and-algorithms/actions)
 
 ## Big O
 time O(log n) *(if the length of array increase the time increas)* space O(1) **Time**: worst case: if the size of array big. **Space**: the input is array and number, but the output is a number. 
