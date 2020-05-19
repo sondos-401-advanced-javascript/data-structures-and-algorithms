@@ -7,8 +7,7 @@ function insertShiftArray(arr,num){
   }
   else{
     index = arr.length/2 ;
-  }
-      
+  }      
   let outArr = [];
   for(let i=0;i<arr.length+1;i++){
     if(i == index){
@@ -19,9 +18,7 @@ function insertShiftArray(arr,num){
     }
     else{
       outArr[i] = arr[i];
-  
-    }
-        
+    }    
   }
   return outArr;
 }
