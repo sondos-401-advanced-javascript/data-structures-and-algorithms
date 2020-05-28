@@ -1,20 +1,20 @@
-# array Binary Search
-make a function name BinarySearch 
+# Linked List
+
 
 ## Challenge
-in this challange, create function name BinarySearch. this function take array and number, then if the number is in array return the index of the number if not in array return -1 ex: input[4,8,15,16,23,42], 15 output: 2
+create two classes the first one name Node class and the second LinkedList. LinkedList includes three methods inseart to inseart new value as a node, includes to find if the node exist or not, toString to convert the linked list to string.
 
 ## Approach & Efficiency
-- I did a method by using for loop, and two if statments.
+- I used while loop and if statment.
 - I did the test by using this command `npm test`
 
 ## links
-- [pull request](https://github.com/sondos-401-advanced-javascript/data-structures-and-algorithms/pull/5)
+- [pull request](https://github.com/sondos-401-advanced-javascript/data-structures-and-algorithms/pull/7)
 
 - [github actions](https://github.com/sondos-401-advanced-javascript/data-structures-and-algorithms/actions)
 
 ## Big O
-time O(log n) *(if the length of array increase the time increas)* space O(1) **Time**: worst case: if the size of array big. **Space**: the input is array and number, but the output is a number. 
+time for the insert is O(1) for includes O(n) and toString O(n)**Time**: worst case: if the size of linked list big. **Space**: inseart and toString O(n) for includes  O(1).
 
 ## Solution
-![shift whiteboard](../../assets/binary.jpg)
+![linked list whiteboard](../../assets/linked-list.jpg)
