@@ -4,6 +4,7 @@
   "description": "## Table Of Content challenges | link ----|----- arrayReverse | [challenge 1](./challenges/arrayReverse) arrayShift | [challenge 2](./challenges/arrayShift)",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint '**/*.js'",
     "test": "jest --coverage"
   },
   "repository": {
