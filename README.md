@@ -7,4 +7,5 @@ arrayReverse | [challenge 1](./challenges/arrayReverse)
 arrayShift | [challenge 2](./challenges/arrayShift)
 arrayBinarySearch | [challenge 3](./challenges/arrayBinarySearch)
 linkedList | [challenge 5](./challenges/linkedList)
+linkedList insertions| [challenge 6](./challenges/Data-Structures)
 
