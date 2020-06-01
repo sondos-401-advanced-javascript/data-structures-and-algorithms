@@ -14,7 +14,7 @@ create new class extend from the LinkedList class, and add for this class three 
 - [github actions](https://github.com/sondos-401-advanced-javascript/data-structures-and-algorithms/actions)
 
 ## Big O
-time for the three methods append, insertBefore and insertAfter O(n)**Time**: worst case: if the size of linked list big. **Space**: append O(1) because you add one element to the memory at end,insertBefore O(1) you add one element before the exact value and insertAfter O(1) you add one element before the exact value.
+time for the three methods append, insertBefore and insertAfter O(n) because all this method use while loop**Time**: worst case: if the size of linked list big. **Space**: append O(1) because you add one element to the memory at end,insertBefore O(1) you add one element before the exact value and insertAfter O(1) you add one element before the exact value.
 
 ## Solution
 ![linked list Insertions whiteboard](../../assets/insertions.jpg)
