@@ -30,7 +30,6 @@ describe('module LinkedList insertions ',()=>{
     link.insert(2);
     link.insert(2);
     link.insertBefore(2,4);
-    console.log('duplicate ==>',head.head.next);
     expect(head.head.next.value).toEqual(4);
     expect(head.head.next.next.value).toEqual(2);
     expect(head.head.next.next.next.value).toEqual(2);
@@ -41,7 +40,6 @@ describe('module LinkedList insertions ',()=>{
     link.insert(2);
     link.insert(3);
     link.insertBefore(1,4);
-    console.log('head ===>',head.head);
     expect(head.head.value).toEqual(4);
     expect(head.head.next.value).toEqual(1);
   });
@@ -65,7 +63,6 @@ describe('module LinkedList insertions ',()=>{
     link.insert(2);
     link.insert(3);
     link.insertAfter(2,4);
-    console.log('After ==>',head.head.next);
     expect(head.head.next.value).toEqual(2);
     expect(head.head.next.next.value).toEqual(4);
     expect(head.head.next.next.next.value).toEqual(3);
@@ -76,7 +73,6 @@ describe('module LinkedList insertions ',()=>{
     link.insert(2);
     link.insert(2);
     link.insertAfter(2,4);
-    console.log('After ==>',head.head.next);
     expect(head.head.next.value).toEqual(2);
     expect(head.head.next.next.value).toEqual(4);
     expect(head.head.next.next.next.value).toEqual(2);
@@ -87,7 +83,6 @@ describe('module LinkedList insertions ',()=>{
     link.insert(2);
     link.insert(3);
     link.insertAfter(3,4);
-    console.log('After ==>',head.head.next);
     expect(head.head.next.next.value).toEqual(3);
     expect(head.head.next.next.next.value).toEqual(4);
     expect(head.head.next.next.next.next).toBeNull();
