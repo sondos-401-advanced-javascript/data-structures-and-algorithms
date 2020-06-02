@@ -9,4 +9,5 @@ arrayBinarySearch | [challenge 3](./challenges/arrayBinarySearch)
 linkedList | [challenge 5](./challenges/linkedList)
 linkedList insertions| [challenge 6](./challenges/Data-Structures)
 linkedList kthfromend| [challenge 7](./challenges/Data-Structures)
+mergeLists | [challenge 8](./challenges/llMerge)
 
