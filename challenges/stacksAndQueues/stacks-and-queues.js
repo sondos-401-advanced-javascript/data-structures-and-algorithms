@@ -13,35 +13,30 @@ class Stack{
     this.top = null;
   }
   push(value){
-    if(!this.top){
-      this.storage.unshift(new Node(value));
-      this.top = this.storage[0];
-    }
-    else{
+    if(this.top){
       let node = new Node(value);
       node.next = this.storage.length;
       this.storage.unshift(node);
       this.top = this.storage[0];
     }
+    else{
+      let node = new Node(value);
+      this.storage.unshift(node);
+      this.top = this.storage[0];  
+    }
+        
   }
-
   pop(){
     if(this.top){
       this.storage.shift();
-      this.top = this.storage[0];
-    }
+      this.storage.length ? this.top = this.storage[0] : this.top=null;
+    }   
   }
   peek(){
-    if(this.top){
-      let item = this.top;
-      return item;
-    }
-    else{
-      return this.top;
-    }
+    return this.top;
   }
-  isEmpty(){
-    if(!this.top){
+  isEmpty(){ 
+    if(!this.storage.length){
       return true;
     }
     else{
@@ -50,54 +45,44 @@ class Stack{
   }
 }
 
-class Queue {
-  constructor() {
+class Queue{
+  constructor(){
     this.storage = new Array();
     this.front = null;
   }
-
-  enqueue(value) {
-    let node = new Node(value);
+  enqueue(value){
     if(!this.front){
-      this.storage.unshift(node);
-      this.front = this.storage[this.storage.length-1];
+      let node = new Node(value);
+      this.storage.push(node);
+      this.front = this.storage[0];
     }
     else{
-      this.storage[0].next = this.storage.length + 1;
-      this.storage.unshift(node);
-      this.front = this.storage[this.storage.length-1];
-    }
-    
-  }
-
-  dequeue() {
-    if(this.front){
-      this.storage.pop();
+      let node = new Node(value);
       let len = this.storage.length;
-      this.front = len ? this.storage[len-1] : null;
+      this.storage[len-1].next = len +1;
+      this.storage.push(node);
+      this.front = this.storage[0];  
     }
+        
   }
-
-  peek() {
+  dequeue(){
     if(this.front){
-      return this.storage[this.storage.length-1];
-    }
-    else{
-      return this.front;
-    }
+      this.storage.shift();
+      this.storage.length ? this.front = this.storage[0] : this.front=null;
+    } 
   }
-
+  peek(){
+    return this.front;
+  }
   isEmpty(){
-    if(!this.front){
+    if(!this.storage.length){
       return true;
     }
-    else{
-      return false;
-    }
+    else{return false;}
   }
 }
 
-module.exports ={
+module.exports = {
   Queue: Queue,
   Stack: Stack,
 };
