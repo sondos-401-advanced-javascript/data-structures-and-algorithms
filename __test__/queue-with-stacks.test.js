@@ -14,11 +14,13 @@ describe('module Queue',()=>{
   it('dequeue()',()=>{
     let queue = new PseudoQueue();
     queue.enqueue(5);
+    queue.enqueue(10);
     queue.enqueue(15);
     queue.enqueue(20);
     queue.dequeue();
-    expect(queue.storage[0]).toEqual(20);
-    expect(queue.storage[1]).toEqual(15);
+    expect(queue.storage[0]).toEqual(5);
+    expect(queue.storage[1]).toEqual(10);
+    expect(queue.storage[2]).toEqual(15);
   });
   it('Stack push()',()=>{
     let stacks = new Stack();

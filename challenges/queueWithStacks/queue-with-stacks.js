@@ -11,6 +11,11 @@ class PseudoQueue {
   }
   dequeue(){
     let stack = new Stack();
+    let array = [];
+    for(let i=0;i<this.storage.length;i++){
+      array[i] = this.storage[this.storage.length - (i+1)];
+    }
+    this.storage = array;
     stack.pop();
     return this.storage;
   }
