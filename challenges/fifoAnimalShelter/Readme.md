@@ -8,12 +8,12 @@ Create a class called AnimalShelter which holds only dogs and cats. The shelter 
 - I did the test by using this command `npm test`
 
 ## links
-- [pull request](https://github.com/sondos-401-advanced-javascript/data-structures-and-algorithms/pull/16)
+- [pull request](https://github.com/sondos-401-advanced-javascript/data-structures-and-algorithms/pull/17)
 
 - [github actions](https://github.com/sondos-401-advanced-javascript/data-structures-and-algorithms/actions)
 
 ## Big O
-time is O(n) for BinaryTree which n is number of node but the time for BinarySearchTree is O(log n). **Space**: O(h) for(BinaryTree and BinarySearchTree) which h is the high of tree.
+time is O(1) there is no for loop or while loop. **Space**: O(n) for(enquee method) but is O(1) for dequeue.
 
 ## Solution
-![Tree whiteboard](../../assets/tree.jpg)
+![fifo-animal-shelter whiteboard](../../assets/fifo-animal.jpg)
