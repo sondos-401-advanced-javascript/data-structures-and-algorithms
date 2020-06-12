@@ -1,8 +1,8 @@
 'use strict';
 
 class Node{
-  constructor(root){
-    this.root = root;
+  constructor(value){
+    this.value = value;
     this.right = null;
     this.left = null;
   }
@@ -22,22 +22,24 @@ class BinaryTree{
     _walk(this.root);
     return results;
   }
-  inOrder(){
+
+  inOrder() {
     let results = [];
-    let _walk = (node) =>{
-      if(node.left)_walk(node.left);
+    let _walk = (node) => {
+      if(node.left) _walk(node.left);
       results.push(node.value);
-      if(node.right)_walk(node.rigth);
+      if(node.right) _walk(node.right);
     };
     _walk(this.root);
     return results;
   }
+
   postOrder(){
     let results = [];
     let _walk = (node)=>{
       if(node.left)_walk(node.left);
       if(node.right)_walk(node.right);
-      _walk(node.value);
+      results.push(node.value);
     };
     _walk(this.root);
     return results;
@@ -48,19 +50,23 @@ class BinarySearchTree{
   constructor(root){
     this.root = root;
   }
-  add(data){
-    let newNode = new Node(data);
-    let _insertNew = (newNode,node) =>{
-      if(newNode.data < node.data){
-        if(!node.left)node.left = newNode;
-        else _insertNew(newNode,node);}
-      else {
-        if(!node.right)node.right = newNode;
-        else _insertNew(newNode,node);
-      }
+
+  add(data) { 
+    let newNode = new Node(data); 
+    let _insertNew = (node,newNode)=>{
+      if(newNode.value < node.value){ 
+        if(node.left === null) node.left = newNode; 
+        else _insertNew(node.left, newNode);  
+      } 
+      else{ 
+        if(node.right === null) node.right = newNode; 
+        else _insertNew(node.right,newNode); 
+      } 
     };
-    _insertNew(newNode,this.root);
-  }
+    if(this.root === null)this.root = newNode; 
+    else _insertNew(this.root, newNode); 
+  }  
+
   contains(value){
     let results = [];
     let _walk = (node)=>{
