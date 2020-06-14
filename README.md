@@ -12,5 +12,7 @@ linkedList kthfromend| [challenge 7](./challenges/Data-Structures)
 mergeLists | [challenge 8](./challenges/llMerge)
 Stack-And-Queue | [challenge 9](./challenges/stacksAndQueues)
 Queue-With-Stack | [challenge 10](./challenges/queueWithStacks)
+fifo-animal-shelter | [challenge 12](./challenges/fifoAnimalShelter)
 multi-bracket-validation | [challenge 13](./challenges/multiBracketValidation)
+Tree | [challenge 15](./challenges/tree)
 
