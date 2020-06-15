@@ -15,4 +15,5 @@ Queue-With-Stack | [challenge 10](./challenges/queueWithStacks)
 fifo-animal-shelter | [challenge 12](./challenges/fifoAnimalShelter)
 multi-bracket-validation | [challenge 13](./challenges/multiBracketValidation)
 Tree | [challenge 15](./challenges/tree)
+Fizz-Buzz-Tree | [challenge 16](./challenges/fizzBuzzTree)
 
