@@ -13,13 +13,13 @@ class BreadthFirst extends BinaryTree{
     let j = 0;
     let current;
     while(enterTree[0] || enterTree[1]){
-      current = enterTree.pop();
+      current = enterTree.shift();
       if (current.left){
-        enterTree.unshift(current.left);
+        enterTree[enterTree.length]=current.left;
       }
     
       if(current.right){
-        enterTree.unshift(current.right);
+        enterTree[enterTree.length]=current.right;
       }
       outputTree[j]=current.value;
       j++;
