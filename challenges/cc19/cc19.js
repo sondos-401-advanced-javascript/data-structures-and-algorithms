@@ -1,17 +1,5 @@
 'use strict';
 
-// function firstQuestion(tree){
-//   let sum = 0;
-//   function _walk(node){
-//     if(node.left)_walk(node.left);
-//     if(node.right)_walk(node.right);
-//     if(node.value%2){
-//       sum = sum + node.value;
-//     }
-//   }
-//   _walk(tree.root);
-//   return sum;
-// }
 function firstQuestion(tree){
   let enterTree = [];
   let sum = 0;
