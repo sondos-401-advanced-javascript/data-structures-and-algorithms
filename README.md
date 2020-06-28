@@ -19,4 +19,5 @@ Fizz-Buzz-Tree | [challenge 16](./challenges/fizzBuzzTree)
 breadth-first | [challenge 17](./challenges/breadthFirst)
 find-max-binary-tree | [challenge 18](./challenges/maxBinaryTree)
 code challenge 19 | [challenge 19](./challenges/cc19)
+insertionSort | [challenge 26](./challenges/insertionSort)
 
