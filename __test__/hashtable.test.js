@@ -13,6 +13,15 @@ describe('Hash Table', () => {
       expect([i, data.values()]).toEqual([1773, [{ book: 'adventure' }]]);
     });
   });
+  it('collision', () => {
+    let hashTable = new HashTable(2000);
+    hashTable.add('book', 'adventure');
+    hashTable.add('book', 'crime');
+    hashTable.add('book', 'Drama');
+    hashTable.map.forEach((data, i) => {
+      expect([i, data.values()]).toEqual([1773, [{ book: 'adventure' },{ book: 'crime' },{ book: 'Drama' }]]);
+    });
+  });
   it('get the value of the key', () => {
     let hashTable = new HashTable(2000);
     hashTable.add('book', 'adventure');
