@@ -16,4 +16,4 @@ Create a class called HashTable, it contains this methods: [add] takes in both t
 time is O(1). **Space**: O(n) becuse it save in an array.
 
 ## Solution
-![fizz-buzz-tree whiteboard](../../assets/fizz-buzz.jpg)
+![hash table whiteboard](../../assets/hashtable.JPG)
