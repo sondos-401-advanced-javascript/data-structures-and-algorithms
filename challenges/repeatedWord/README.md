@@ -8,7 +8,7 @@ create a function return the most frequnet word reapeted.
 - I did the test by using this command `npm test`
 
 ## links
-- [pull request](https://github.com/sondos-401-advanced-javascript/data-structures-and-algorithms/pull/16)
+- [pull request](https://github.com/sondos-401-advanced-javascript/data-structures-and-algorithms/pull/26)
 
 - [github actions](https://github.com/sondos-401-advanced-javascript/data-structures-and-algorithms/actions)
 
