@@ -8,7 +8,7 @@ write a function called tree_intersection takes two trees as input and return th
 - I did the test by using this command `npm test`
 
 ## links
-- [pull request](https://github.com/sondos-401-advanced-javascript/data-structures-and-algorithms/pull/16)
+- [pull request](https://github.com/sondos-401-advanced-javascript/data-structures-and-algorithms/pull/27)
 
 - [github actions](https://github.com/sondos-401-advanced-javascript/data-structures-and-algorithms/actions)
 
