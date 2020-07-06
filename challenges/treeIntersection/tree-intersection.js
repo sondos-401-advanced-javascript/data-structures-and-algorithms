@@ -1,6 +1,6 @@
 'use strict';
 
-function intersection(firstTree,secondTree){
+function tree_intersection(firstTree,secondTree){
   let results = [];
   let _walk = (node)=>{
     results.push(node.value);
@@ -20,4 +20,4 @@ function intersection(firstTree,secondTree){
   return data;
 }
 
-module.exports = intersection;
+module.exports = tree_intersection;
