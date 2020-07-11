@@ -23,4 +23,5 @@ insertionSort | [challenge 26](./challenges/insertionSort)
 mergeSort | [challenge 27](./challenges/mergeSort)
 quickSort | [challenge 28](./challenges/quickSort)
 Hash-table | [challenge 30](./challenges/hashtable)
+repeated-word | [challenge 31](./challenges/repeatedWord)
 
