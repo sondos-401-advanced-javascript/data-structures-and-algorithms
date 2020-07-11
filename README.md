@@ -26,5 +26,6 @@ Hash-table | [challenge 30](./challenges/hashtable)
 repeated-word | [challenge 31](./challenges/repeatedWord)
 tree-intersection | [challenge 32](./challenges/treeIntersection)
 left-join | [challenge 33](./challenges/leftJoin)
+Graph | [challenge 35](./challenges/graph)
 
 
