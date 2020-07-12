@@ -14,9 +14,7 @@ class BreadthFirst extends Graph{
       const neighbors = this.getNeighbors(currentNode);
       for (let neighbor of neighbors) {
         const neighborNode = neighbor.vertice;
-        if(checked.has(neighborNode)) {
-          continue;
-        } else {
+        if(!checked.has(neighborNode)) {
           checked.add(neighborNode);
           queue.push(neighborNode);
         }
