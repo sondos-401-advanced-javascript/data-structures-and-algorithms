@@ -28,6 +28,8 @@ tree-intersection | [challenge 32](./challenges/treeIntersection)
 left-join | [challenge 33](./challenges/leftJoin)
 Graph | [challenge 35](./challenges/graph)
 breadthFirstGraph | [challenge 36](./challenges/breadthFirstGraph)
+getEdge | [challenge 37](./challenges/getEdge)
+ 
 
 
 
