@@ -29,6 +29,7 @@ left-join | [challenge 33](./challenges/leftJoin)
 Graph | [challenge 35](./challenges/graph)
 breadthFirstGraph | [challenge 36](./challenges/breadthFirstGraph)
 getEdge | [challenge 37](./challenges/getEdge)
+depthFirst | [challenge 38](./challenges/depthFirst)
  
 
 
