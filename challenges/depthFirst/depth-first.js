@@ -13,7 +13,6 @@ class depthFirst extends Graph{
     while (stack.length) {
       const currentNode = stack.pop();
       const neighbors = this.getNeighbors(currentNode);
-     
       for (let neighbor of neighbors) {
         const neighborNode = neighbor.vertice;
         if(!checked.has(neighborNode)) {
